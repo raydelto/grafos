@@ -40,14 +40,13 @@
 1452271277 /home/raydelto/git/intec/grafos/include/Vertice.h
 	<string>
 
-1452217780 source:/home/raydelto/git/intec/grafos/src/Cola.cpp
+1452271408 source:/home/raydelto/git/intec/grafos/src/Cola.cpp
 	"Cola.h"
-	<iostream>
 
-1452216574 source:/home/raydelto/git/intec/grafos/src/Grafo.cpp
+1452271430 source:/home/raydelto/git/intec/grafos/src/Grafo.cpp
 	"Grafo.h"
 	<iostream>
 
-1452270763 source:/home/raydelto/git/intec/grafos/src/Vertice.cpp
+1452271302 source:/home/raydelto/git/intec/grafos/src/Vertice.cpp
 	"Vertice.h"
 

@@ -1,6 +1,4 @@
 #include "Cola.h"
-#include <iostream>
-using namespace std;
 
 bool Cola::estaVacia()
 {
@@ -16,7 +14,6 @@ Cola::Cola()
 
 void Cola::enqueue(Vertice* vertice)
 {
-    cout << "Agregando a " << vertice -> _nombre <<endl;
     _tamano++;
     if(_primer == NULL)
     {
@@ -39,7 +36,6 @@ Vertice* Cola::dequeue()
 
     _tamano--;
     Vertice* temp = _primer;
-    cout << "Removiendo a " << temp -> _nombre <<endl;
     _primer = _primer -> _siguiente;
     return temp;
 }

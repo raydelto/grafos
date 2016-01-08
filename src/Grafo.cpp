@@ -17,7 +17,6 @@ void Grafo::recorrer(Vertice* inicio)
     {
         i = _cola -> dequeue();
         adyacente = i->_primer;
-        cout << "Recorriendo adyacentes a " << i -> _nombre << endl;
         while(adyacente)
         {
             if(adyacente -> _distancia == -1)
@@ -25,11 +24,6 @@ void Grafo::recorrer(Vertice* inicio)
                 _cola -> enqueue(adyacente);
                 adyacente -> _distancia = i -> _distancia + 1;
                 adyacente -> _ruta = i;
-                cout << "Nodo = "<< adyacente -> _nombre << " distancia = " << adyacente -> _distancia << endl;
-
-            }else
-            {
-                cout << "<VISITADO> Nodo = "<< adyacente -> _nombre << " distancia = " << adyacente -> _distancia << endl;
             }
             adyacente = adyacente -> _siguienteAdyacente;
         }
