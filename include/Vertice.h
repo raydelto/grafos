@@ -9,10 +9,12 @@ class Vertice
         virtual ~Vertice();
         void agregarAdyacencia(Vertice* vertice);
         int getDistancia();
+        std::string getNombre();
     private:
         std::string _nombre;
         Vertice* _primer;
         Vertice* _ultimo;
+        Vertice* _siguienteAdyacente;
         Vertice* _siguiente;
         Vertice* _ruta;
         int _distancia;

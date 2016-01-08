@@ -4,10 +4,16 @@ Vertice::Vertice(std::string nombre):_nombre(nombre)
     _primer = NULL;
     _ultimo = NULL;
     _siguiente = NULL;
+    _siguienteAdyacente = NULL;
     _ruta = NULL;
     _distancia = -1;
-
 }
+
+std::string Vertice::getNombre()
+{
+    return _nombre;
+}
+
 
 int Vertice::getDistancia()
 {
@@ -22,7 +28,7 @@ void Vertice::agregarAdyacencia(Vertice* vertice)
         _primer = _ultimo = vertice;
     }else //Si no esta vacia
     {
-        _ultimo -> _siguiente = vertice;
+        _ultimo -> _siguienteAdyacente = vertice;
         _ultimo = vertice;
     }
 

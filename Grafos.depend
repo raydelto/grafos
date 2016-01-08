@@ -3,11 +3,15 @@
 	<iostream>
 	"Grafo.h"
 
+1452216572 
+
 1452214813 c:\users\raydelto.hernandez\grafos\include\grafo.h
 	"Cola.h"
 
 1452214510 c:\users\raydelto.hernandez\grafos\include\cola.h
 	"Vertice.h"
+
+1452215795 "
 
 1452215783 c:\users\raydelto.hernandez\grafos\include\vertice.h
 	<string>
@@ -21,5 +25,29 @@
 	<iostream>
 
 1452215795 source:c:\users\raydelto.hernandez\grafos\src\vertice.cpp
+	"Vertice.h"
+
+1452270901 source:/home/raydelto/git/intec/grafos/main.cpp
+	<iostream>
+	"Grafo.h"
+
+1452214814 /home/raydelto/git/intec/grafos/include/Grafo.h
+	"Cola.h"
+
+1452214512 /home/raydelto/git/intec/grafos/include/Cola.h
+	"Vertice.h"
+
+1452271277 /home/raydelto/git/intec/grafos/include/Vertice.h
+	<string>
+
+1452217780 source:/home/raydelto/git/intec/grafos/src/Cola.cpp
+	"Cola.h"
+	<iostream>
+
+1452216574 source:/home/raydelto/git/intec/grafos/src/Grafo.cpp
+	"Grafo.h"
+	<iostream>
+
+1452270763 source:/home/raydelto/git/intec/grafos/src/Vertice.cpp
 	"Vertice.h"
 

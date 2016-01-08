@@ -31,7 +31,7 @@ void Grafo::recorrer(Vertice* inicio)
             {
                 cout << "<VISITADO> Nodo = "<< adyacente -> _nombre << " distancia = " << adyacente -> _distancia << endl;
             }
-            adyacente = adyacente -> _siguiente;
+            adyacente = adyacente -> _siguienteAdyacente;
         }
 
     }
