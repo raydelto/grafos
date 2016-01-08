@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1452216180 source:c:\users\raydelto.hernandez\grafos\main.cpp
+	<iostream>
+	"Grafo.h"
+
+1452214813 c:\users\raydelto.hernandez\grafos\include\grafo.h
+	"Cola.h"
+
+1452214510 c:\users\raydelto.hernandez\grafos\include\cola.h
+	"Vertice.h"
+
+1452215783 c:\users\raydelto.hernandez\grafos\include\vertice.h
+	<string>
+
+1452217779 source:c:\users\raydelto.hernandez\grafos\src\cola.cpp
+	"Cola.h"
+	<iostream>
+
+1452216572 source:c:\users\raydelto.hernandez\grafos\src\grafo.cpp
+	"Grafo.h"
+	<iostream>
+
+1452215795 source:c:\users\raydelto.hernandez\grafos\src\vertice.cpp
+	"Vertice.h"
+
